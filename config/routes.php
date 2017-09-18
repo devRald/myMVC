@@ -1,6 +1,6 @@
 <?php
 
-$route['api/customer'] = 'customer_list.php';
-$route['api/customer/(:num)'] = 'customer.php?id=$1';
+$route['api/customer'] = 'api/customerList';
+$route['api/customer/(:num)'] = 'api/customer/$1';
 
 ?>
